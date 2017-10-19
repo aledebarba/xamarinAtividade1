@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.atividadeum"
+             x:Class="XF.atividadeum.MainPage">
+
+    <ContentPage.Content>
+
+        <StackLayout>
+
+            <Button Text="ENVIAR" x:Name="btEnviar" Clicked="EnviarClick" />
+            <Button Text="CONFIURAR" x:Name="btConfigurar" Clicked="ConfigurarClick" />
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+
+</ContentPage>
